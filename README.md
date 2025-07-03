@@ -2,7 +2,7 @@
 
 This project demonstrates how to build a **static Hugo site** enhanced with **Netlify serverless functions**, using `netlify dev` for a seamless local development experience.
 
-- this 
+- this project shows your public IP address
 
 ---
 
