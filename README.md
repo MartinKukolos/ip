@@ -1,10 +1,9 @@
-# 🚀 Hugo + Netlify Functions Example
+# 🚀 Public IP checker
+
+> [!NOTE]
+> This example shows your public IP address
 
 This project demonstrates how to build a **static Hugo site** enhanced with **Netlify serverless functions**, using `netlify dev` for a seamless local development experience.
-
-- this project shows your public IP address
-
----
 
 ## 📂 Project structure
 
