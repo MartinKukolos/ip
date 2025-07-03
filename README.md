@@ -1,5 +1,7 @@
 # 🚀 Public IP checker
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N0RM9J1)
+
 > [!NOTE]
 > This example shows your public IP address
 
