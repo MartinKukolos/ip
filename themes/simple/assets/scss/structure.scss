@@ -1,0 +1,23 @@
+.mk {
+    &-container {
+        flex: 1 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        flex: 1 auto;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    &-page {
+        width: 100%;
+        text-align: left;
+        margin: 20px auto;
+    }
+}

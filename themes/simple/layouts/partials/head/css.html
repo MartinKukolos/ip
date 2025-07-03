@@ -1,0 +1,8 @@
+{{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true "precision" 6 ) }}
+{{ $color := resources.Get (printf "scss/colors/%s.scss" "default") }}
+{{ $style := resources.Get "scss/main.scss" }}
+{{ $css := slice $color $style | resources.Concat "scss/base.scss" }}
+{{ $style := $css | css.Sass $options | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ template "_internal/schema.html" . }}
+{{ template "_internal/opengraph.html" . }}
